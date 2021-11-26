@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="redactor">
+    <div class="shadow">
+        <div class="shadow__inputs">
+            <label class="shadow__inputs_label">
+                <span>X:</span>
+                <input id="x" type="range" class="shadow__inputs_input" min="-50" max="50" value="0">
+            </label>
+            <label class="shadow__inputs_label">
+                <span>Y:</span>
+                <input id="y" type="range" class="shadow__inputs_input" min="-50" max="50" value="0">
+            </label>
+            <label class="shadow__inputs_label">
+                <span>Blur:</span>
+                <input id="blur" type="range" class="shadow__inputs_input" min="0" max="10" value="0">
+            </label>
+            <label class="shadow__inputs_label">
+                <span>Spread:</span>
+                <input id="spread" type="range" class="shadow__inputs_input" min="0" max="20" value="0">
+            </label>
+            <label class="shadow__inputs_label">
+                <span>Border-radius:</span>
+                <input id="radius" type="range" class="shadow__inputs_input" min="0" max="40" value="0">
+            </label>
+            <label class="shadow__inputs_label">
+                <span>Color Shadow:</span>
+                <input id="color-shadow" type="color" class="shadow__inputs_input">
+            </label>
+            <label class="shadow__inputs_label">
+                <span>Color Box:</span>
+                <input id="color-box" type="color" class="shadow__inputs_input">
+            </label>
+        </div>
+    </div>
+
+    <div class="color__box">
+        <div class="color__box_item"></div>
+    </div>
+    <div class="css">
+        <div class="css__shadow">box-shadow:</div>
+        <div class="css__radius">border-radius:</div>
+        <div class="css__bg_color">background-color:</div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
